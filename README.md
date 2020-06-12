@@ -61,6 +61,10 @@ modelPayBizContent   :  支付模板
 
 
 ## 2. WeiXin 微信支付
+### 2.0. 准备工作
+SysPayServer/WeiXin/AppBin/WxPayConfig.cs 这里修改一下设置。
+具体大家看吧！^o^
+
 ### 2.1. 统一下单
 #### 2.1.1. 构造函数
 > Unifiedorder(string sn, string totalFee, string snbody, string ip, string tradeType)
