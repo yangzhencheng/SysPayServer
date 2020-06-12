@@ -18,14 +18,14 @@
         /* 证书路径,注意应该填写绝对路径（仅退款、撤销订单时需要）
         */
         public const string SSLCERT_PATH = "cert/apiclient_cert.p12";               // 微信支付-》帐户中心-》商户信息-》API安全-》下载证书
-        public const string SSLCERT_PASSWORD = "";                        // 微信支付-》帐户中心-》商户信息-》微信支付商户号
+        public const string SSLCERT_PASSWORD = "";                                  // 微信支付-》帐户中心-》商户信息-》微信支付商户号
 
 
 
         //=======【支付结果通知url】===================================== 
         /* 支付结果通知回调url，用于商户接收支付结果
         */
-        public const string NOTIFY_URL = "";
+        public const string NOTIFY_URL = "返回结果接收，方便修改！";
 
         //=======【商户系统后台机器IP】===================================== 
         /* 此参数可手动配置也可在程序中自动获取
