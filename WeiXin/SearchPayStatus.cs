@@ -42,10 +42,10 @@ namespace SysPayServer.WeiXin
 
         private string _orderNo = "";
         private string _resultXML = "";
-        private string appid = WxPayConfig.APPID;                // 小程序ID
-        private string mch_id = WxPayConfig.MCHID;                       // 商户号
-        private string nonce_str = "";          // 32位随机字符串
-        private string trade_type = "JSAPI";    // 交易类型
+        private string appid = WxPayConfig.APPID;               // 小程序ID
+        private string mch_id = WxPayConfig.MCHID;              // 商户号
+        private string nonce_str = "";                          // 32位随机字符串
+        private string trade_type = "JSAPI";                    // 交易类型
         private readonly string apikey = WxPayConfig.KEY;
 
 
