@@ -5,10 +5,12 @@
 ### 1.1. 支付
 #### 1.1.1. 构造函数
 > AlipayPagePayServer(string privateKey, string publicKey)
+
 privateKey : 私钥
 publicKey  : 公钥
 
 > AlipayPagePayServer(string privateKey, string publicKey, string appid, string returnUrl, string NotifyUrl, model.ModelPayBizContent modelPayBizContent)
+
 privateKey : 私钥
 publicKey  : 公钥
 appid      : 商店帐号
@@ -18,24 +20,30 @@ modelPayBizContent   :  支付模板
 
 #### 1.1.2. 支付调用
 > bool BuildBridge()
+
 建立支付 URL
 返回得是执行结果。
 
 如果是 true。则找下面属性得到 URL：
+
 > public string Url { get => _url; }
+
 之后调用 Redirect 去调 URL 对应的 H5 支付页面
 
 如果是 false。则找下面属性得到错误：
+
 > public string Error { get => _Error; }
 
 
 ### 1.2 交易查询
 #### 1.2.1. 构造函数
 > AlipayPaySearchServer(string privateKey, string publicKey)
+
 privateKey : 私钥
 publicKey  : 公钥
 
 > AlipayPaySearchServer(string privateKey, string publicKey, string appid, model.ModelPayBizContent modelPayBizContent)
+
 privateKey : 私钥
 publicKey  : 公钥
 appid      : 商店帐号
@@ -43,9 +51,11 @@ modelPayBizContent   :  支付模板
 
 #### 1.2.2. 查询操作
 > bool PayStatic()
+
 直接给结果
 
 > JsonSearchResult OrderStatus()
+
 直接调接口查看支付宝服务器返回的源值
 
 
@@ -63,17 +73,21 @@ tradeType : 交易类型
 
 #### 2.1.2. 返回数据
 > public SortedDictionary<string, string> ReturnValue()
+
 内容与官方文档相近
 
 ### 2.2. 交易查询
 #### 构造函数
 > SearchPayStatus(string orderNo)
+
 orderNo   : 订单号
 
 > string TradeState()
+
 返回交易结果
 
 > string XMLDATA
+
 返回的 XML
 
 
