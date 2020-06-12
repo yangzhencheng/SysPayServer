@@ -1,0 +1,9 @@
+/Volumes/Development/Program/dotnet/道通国际/daotongClient/daotongClient/SysPayServer/bin/Release/netcoreapp2.1/SysPayServer.deps.json
+/Volumes/Development/Program/dotnet/道通国际/daotongClient/daotongClient/SysPayServer/bin/Release/netcoreapp2.1/SysPayServer.dll
+/Volumes/Development/Program/dotnet/道通国际/daotongClient/daotongClient/SysPayServer/bin/Release/netcoreapp2.1/SysPayServer.pdb
+/Volumes/Development/Program/dotnet/道通国际/daotongClient/daotongClient/SysPayServer/obj/Release/netcoreapp2.1/SysPayServer.csprojAssemblyReference.cache
+/Volumes/Development/Program/dotnet/道通国际/daotongClient/daotongClient/SysPayServer/obj/Release/netcoreapp2.1/SysPayServer.csproj.CoreCompileInputs.cache
+/Volumes/Development/Program/dotnet/道通国际/daotongClient/daotongClient/SysPayServer/obj/Release/netcoreapp2.1/SysPayServer.AssemblyInfoInputs.cache
+/Volumes/Development/Program/dotnet/道通国际/daotongClient/daotongClient/SysPayServer/obj/Release/netcoreapp2.1/SysPayServer.AssemblyInfo.cs
+/Volumes/Development/Program/dotnet/道通国际/daotongClient/daotongClient/SysPayServer/obj/Release/netcoreapp2.1/SysPayServer.dll
+/Volumes/Development/Program/dotnet/道通国际/daotongClient/daotongClient/SysPayServer/obj/Release/netcoreapp2.1/SysPayServer.pdb
