@@ -9,16 +9,16 @@
         * KEY：商户支付密钥，参考开户邮件设置（必须配置）
         * APPSECRET：公众帐号secert（仅JSAPI支付的时候需要配置）
         */
-        public const string APPID = "wx327480d5eeaa0152";                           // 微信服务号-》开发-》基本配置-》公众号开发信息-》开发者ID(AppID)
-        public const string MCHID = "1488110192";                                   // 微信支付-》帐户中心-》商户信息-》微信支付商户号
-        public const string KEY = "7p12re8i0vo16zkv3m9aw8n6b1f22efl";               // 微信支付：商户支付密钥，参考开户邮件设置（必须配置）
-        public const string APPSECRET = "0b5396fce09357792dfab2ddc88afb07";         // 微信服务号-》开发-》基本配置-》公众号开发信息-》开发者密码(AppSecret)
+        public const string APPID = "";                           // 微信服务号-》开发-》基本配置-》公众号开发信息-》开发者ID(AppID)
+        public const string MCHID = "";                                   // 微信支付-》帐户中心-》商户信息-》微信支付商户号
+        public const string KEY = "";               // 微信支付：商户支付密钥，参考开户邮件设置（必须配置）
+        public const string APPSECRET = "";         // 微信服务号-》开发-》基本配置-》公众号开发信息-》开发者密码(AppSecret)
 
         //=======【证书路径设置】===================================== 
         /* 证书路径,注意应该填写绝对路径（仅退款、撤销订单时需要）
         */
         public const string SSLCERT_PATH = "cert/apiclient_cert.p12";               // 微信支付-》帐户中心-》商户信息-》API安全-》下载证书
-        public const string SSLCERT_PASSWORD = "1488110192";                        // 微信支付-》帐户中心-》商户信息-》微信支付商户号
+        public const string SSLCERT_PASSWORD = "";                        // 微信支付-》帐户中心-》商户信息-》微信支付商户号
 
 
 
